@@ -32,6 +32,9 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+# .env* - for anything after .env
+# *.env - for anything ending with .env
+# .*env - for anything starting with . has something in middle but ends with env eg: .xyzenv
 
 # vercel
 .vercel
@@ -39,3 +42,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.txt
+/lib/generated/prisma
